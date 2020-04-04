@@ -17,7 +17,7 @@ if ($conn->connect_error) {
 
 
 <?php
-$query = $conn->query("desc table anagtab;");
+$query = $conn->query("describe anagtab;");
 
 var_dump($query);
 
