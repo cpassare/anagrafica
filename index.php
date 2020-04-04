@@ -17,7 +17,9 @@ if ($conn->connect_error) {
 
 
 <?php
+$query = $conn->query("desc table anagtab;");
 
+var_dump($query);
 
 $conn->close();
 
