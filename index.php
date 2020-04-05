@@ -21,6 +21,12 @@ $query = $conn->query("describe anagtab;");
 
 var_dump($query);
 
+?>
+<input type="button" value="CREA STRUTTURA">
+
+<?php
+
+
 $conn->close();
 
  ?>
